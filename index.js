@@ -8,7 +8,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-  response.send('Hello Andre!');
+  response.send('<a href="https://github.com/jimCresswell/helloandre">Hello Andre!</a>');
 });
 
 app.listen(app.get('port'), function() {
