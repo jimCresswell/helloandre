@@ -1,0 +1,21 @@
+{
+  "name": "helloandre",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jimCresswell/helloandre.git"
+  },
+  "license": "MIT"
+}
